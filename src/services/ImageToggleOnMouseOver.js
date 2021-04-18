@@ -1,6 +1,6 @@
 import React, {useRef} from 'react'
 
-export default function ImageToggleOnMouseOver(primaryImg, secondaryImg) {
+export default function ImageToggleOnMouseOver({primaryImg, secondaryImg}) {
     const imageRef = useRef(null);
     return (
        <img 
@@ -10,6 +10,7 @@ export default function ImageToggleOnMouseOver(primaryImg, secondaryImg) {
        onMouseOut={() => {
            imageRef.current.src = primaryImg;
        }}
+       
        src={primaryImg}
        alt="" ref={imageRef}
        />

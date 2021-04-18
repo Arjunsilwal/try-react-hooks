@@ -1,10 +1,10 @@
 import React from 'react'
-import ImageToggleOnMouseOver from '../services/ImageToggleOnMouseOver'
+import ImageToggleOnScroll from '../services/ImageToggleOnScroll'
 
-export default function ImageChangeOnMouseOver() {
+export default function ImageChangeOnScroll() {
     return (
         <div>
-            <ImageToggleOnMouseOver 
+            <ImageToggleOnScroll 
             primaryImg="/images/arjun.jpeg"
             secondaryImg="/images/img.png" 
              alt="hello there" />

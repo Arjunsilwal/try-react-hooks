@@ -1,12 +1,15 @@
 import React from 'react'
 import './App.css';
-import ImageChangeOnMouseOver from './pages/ImageChangeOnMouseOver';
+import ImageChangeOnScroll from './pages/ImageChangeOnScroll';
+//import ImageChangeOnMouseOver from './pages/ImageChangeOnMouseOver';
 
 function App() {
  
   return (
     <div className="App">
-    <ImageChangeOnMouseOver />
+     {/* <ImageChangeOnMouseOver /> */}
+     <ImageChangeOnScroll />
+
     </div>
   );
 }
